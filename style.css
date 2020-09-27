@@ -8,6 +8,22 @@ body, html {
   color: #007ef3;
   font-size: 24px; }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131313; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #007ef3; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0062be; }
+
 .nav_bar {
   display: inline-block;
   margin: 20px 0 30px 0; }
