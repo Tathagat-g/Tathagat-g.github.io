@@ -14,10 +14,10 @@ body, html {
   .nav_bar a {
     text-decoration: none;
     margin: 20px;
-    padding: 8px 26px 5px 26px;
+    padding: 8px 22px 5px 26px;
     border-radius: 30px;
     transition: ease-in-out .25s;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 3px; }
   .nav_bar a:hover {
     background-color: #007ef3;
