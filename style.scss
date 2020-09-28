@@ -82,6 +82,7 @@ h1{
         left: 0;
         right: 0;
         margin: auto;
+        padding-bottom: 80px;
         label{
             font-size: 30px;
             margin-right: 30px;
@@ -104,14 +105,13 @@ h1{
         width: fit-content;
         height: fit-content;
         position: relative;
-        left: 0;
-        right: 0;
-        margin: auto;
-        padding: 40px;
-        label{
-            margin-right: 150px ;
+        margin-left: 150px;
+        padding: 40px 40px 0px 40px;
+        span{
+            margin-right: 200px ;
         }
         input{
+            margin-right: 15px;
             cursor: pointer;
             width: 1em;
             height: 1em;
