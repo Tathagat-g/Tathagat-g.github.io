@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sign_style.css">
     <link rel="icon" href="img/check.png" type="png/image">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <title>Quiz</title>
-    <style>
-        #foot{
-            position: absolute; bottom: 0px;
-        }
-    </style>
+    <title>Sign Up</title>
 </head>
 <body>
     <div class="nav_bar">
@@ -21,13 +17,30 @@
         <a href="#">UPCOMING</a>
         <a href="#">PREVIOUS</a>
     </div>
-    <div class="main_container">
-        <div>
-            <!-- <a href="quiz_host.html">Host Quiz now.</a> -->
-            <button onclick="parent.location='quiz_host.html'">Host Quiz now</button>
+    <h1>
+        <span>S</span>ign Up.
+    </h1>
+    <div class="main_container_sign">
+        <div class="fill_area">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="email" placeholder="Email">
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <input type="password" placeholder="Re-Enter password">
+                <br>
+                <span>
+                    <input class="btn_sub" type="submit" value="Sign up">
+                    <br>
+                    <p>Already a user ? <a href="sign_in.html">Sign In</a></p>
+                </span>
+            </form>
         </div>
+        
     </div>
-    
+
 </body>
 <div id="foot">
     <hr>
