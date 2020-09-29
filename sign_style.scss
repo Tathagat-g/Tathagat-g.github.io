@@ -8,9 +8,26 @@
     left: 0;
     right: 0;
     margin: auto;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    .user_type{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        right: 0;
+        left: 0;
+        margin: auto;
+        padding: 20px 40px 40px 40px;
+        span{
+            margin-right: 200px ;
+        }
+        input{
+            margin-right: 15px;
+            cursor: pointer;
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            border: 0.1em solid #007ef3;
+        }
+    }
     .fill_area{
         display: flex;
         justify-content: center;
